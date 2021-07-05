@@ -5,7 +5,7 @@ function Header(props) {
     return (
         <header className='header'>
 <h1>{props.title}</h1>
-<Button />
+<Button color='green' text='Add'/>
         </header>
     )
 }

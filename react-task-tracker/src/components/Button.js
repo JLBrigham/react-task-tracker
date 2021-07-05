@@ -1,6 +1,6 @@
-function Button() {
+function Button(props) {
     return (
-<button className='btn'>Add</button>
+<button className='btn' style={{ backgroundColor: props.color}}>{props.text}</button>
     )
 }
 
