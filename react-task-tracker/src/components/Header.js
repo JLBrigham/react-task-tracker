@@ -1,22 +1,22 @@
-import PropTypes from 'prop-types'
-import Button from './Button'
+import PropTypes from "prop-types";
+import Button from "./Button";
 
 function Header(props) {
-    return (
-        <header className='header'>
-<h1>{props.title}</h1>
-<Button color='green' text='Add'/>
-        </header>
-    )
+  return (
+    <header className="header">
+      <h1>{props.title}</h1>
+      <Button color="green" text="Add" />
+    </header>
+  );
 }
 
 Header.defaultProps = {
-    title: 'Task Tracker',
-}
+  title: "Task Tracker",
+};
 
 Header.propTypes = {
-    title: PropTypes.string,
-}
+  title: PropTypes.string,
+};
 
 // CSS styling in JS
 
@@ -25,4 +25,4 @@ Header.propTypes = {
 //     backgroundColor: 'black',
 // }
 
-export default Header
+export default Header;
