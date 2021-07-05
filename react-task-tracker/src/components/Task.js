@@ -1,7 +1,8 @@
-function Task() {
+function Task(props) {
   return (
     <div className="task">
-      <h3>My Task</h3>
+      <h3>{props.task.text}</h3>
+      <p>{props.task.day}</p>
     </div>
   );
 }
